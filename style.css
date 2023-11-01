@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0  ;
+    padding:0  ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Nav
+{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 8px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.clearfix{
+    clear:both;
+    float:none;
+}
+
+.navlink:hover{
+    color: black;
+}
+
+
+.button{
+    width: 100px;
+    padding: 10px;
+    border:none;
+    color:white;
+    background-color: coral;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+h2{
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.2rem;
+}
+
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position: relative;
+    bottom: 50px;
+    left: 40%;
+}
+/* CSS for navbar section */
+.logo{
+    width:30%;
+   margin-left: 20px;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+    display: inline;
+     padding:70px;
+    font-weight: bold;
+}
+.abc
+{
+    height: 80px;
+    width: 100px;
+    margin-left: 20px;
+}
+.menu ul li a{
+    color:crimson    ;
+    text-decoration: none;
+}
+
+.icons div{
+    height: 2.5 px;
+    width: 2.5px;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right:25px;
+}
+
+.icons div:hover{
+    background: var(--black);
+}
+
+.login-form{
+    position: absolute;
+    top: 10%; right:0.5%;
+    width: 23rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: .5rem;
+    background:white;
+    text-align: center;
+    display: none;
+
+}
+
+.login-form .active{
+    right: 2rem;
+    transition: .4s linear;
+}
+
+.login-form h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.login-form .boxx{
+    width: 80%;
+    margin:.7rem 0;
+    background: #eee;
+    border-radius: .5rem;
+    padding: 0.6rem;
+    font-size: 0.6rem;
+    color: var(--black);
+    text-transform: none;
+    display: hidden;
+    
+}
+
+.login-form p{
+    font-size: 0.9rem;
+    padding: .5rem 0;
+    color: var(--light-color);
+}
+
+.login-form p a{
+    color: coral;
+    text-decoration: underline;
+}
+
+/* Css for food search section*/
+.food-search{
+    background-image:url(https://images.pexels.com/photos/12318617/pexels-photo-12318617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+     background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+    height: 100vh;
+    
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: grey;
+    opacity: 60%;
+   
+    
+}
+
+
+/* Css for categories section */
+.categories{
+    padding: 5% 0;
+    margin-bottom: 30px;
+    height: 400px;
+    margin-top: 30px;
+    
+}
+
+
+
+/* .box-3 img{
+    height: 300px;
+    width: 300px;
+} */
+
+
+/* css for food menu*/
+.food-menu{
+    background-color: white;
+    padding: 10% 0;
+}
+.text-center{
+    text-align: center;
+}
+.Food-menu-box{
+    
+    width: 43%;
+    margin: 1%;
+    padding: 10%;
+    float: left;
+    background-color: white;
+    display: flex;
+}
+
+.food-menu-img{
+    width: 100%;
+    float: left;
+    
+}
+
+.food-menu-desc{
+    width: 60%;
+    float: left;
+}
+.food-price{
+    font-size: 15px;
+    margin: 5% 0;
+    color: rgb(51, 51, 51);
+}
+.food-detail{
+    font-size: 13px;
+    
+}
+/*css for explore outlets*/
+.coll .txt{
+    text-align: center;
+    margin-top: 64px;
+    padding:40px;
+    margin-left: 20px;
+}
+
+.coll .rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.rest img{
+    margin-left: 1.5px;
+    width: 24%;
+    height: 64%;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(206, 204, 204);
+    padding: 5px;
+    margin-top: 84px;
+   
+}
+.footer ul{
+    list-style-type:none;
+    
+}
+S
+.footer ul i{
+    color: rgb(251, 226, 253);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .menu{
+        padding: 2rem;
+    }
+}
+
+@media(max-width:768px){
+
+}
+
+@media (max-width:450px){
+    html{
+        font-size:50% ;
+    }
+}
