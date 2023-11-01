@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"Margherita Pizza",
+        "price":200,
+        "image":"images/magrita.jpeg"
+    },
+    {
+        "id":2,
+        "name":"Veggie Pizza",
+        "price":250,
+        "image":"images/vegpizza.jpeg"
+    },
+    {
+        "id":3,
+        "name":"Chicken Pizza",
+        "price":300,
+        "image":"images/chipizza.jpeg"
+    },
+    {
+        "id":4,
+        "name":"Garlic Bread",
+        "price":100,
+        "image":"images/garlicbread.jpeg"
+    },
+    {
+        "id":5,
+        "name":"Red Sauce Pasta",
+        "price":180,
+        "image":"images/redpasta.jpeg"
+    },
+    {
+        "id":6,
+        "name":"White Sauce Pasta",
+        "price":150,
+        "image":"images/whitepasta.jpeg"
+    },
+    {
+        "id":7,
+        "name":"Caprese Salad",
+        "price":130,
+        "image":"images/caprese.jpeg"
+    },
+    {
+        "id":8,
+        "name":"Tiramisu",
+        "price":120,
+        "image":"images/tiramisu.jpeg"
+    }
+]
