@@ -14,7 +14,7 @@ const firebaseApp = firebase.initializeApp({
    //SignUP function
    const signUp=()=>{
     const email= document.getElementById("email").value;
-    const password= document.getElementById("password").value;;
+    const password= document.getElementById("password").value;
     console.log(email, password);
     //firebase code
     firebase.auth().createUserWithEmailAndPassword(email, password)
@@ -34,12 +34,15 @@ const firebaseApp = firebase.initializeApp({
 
    //Login fiunction
    const signIn=()=>{
+    const email= document.getElementById("email").value;
+    const password= document.getElementById("password").value;;
     firebase.auth().signInWithEmailAndPassword(email, password)
   .then((result) => {
     alert("You are signed in... Welcome to CraveHub.com, Happy Munching!")
     console.log(result);
   })
   .catch((error) => {
+    alert("Wrong Credentials, try again:(")
     console.log(error.code);
     console.log(error.message);
   });
